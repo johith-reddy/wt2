@@ -1,0 +1,168 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.navbar-links button,
+.navbar-right button {
+    background-color: #232F3E;
+    border: 1px solid #ddd;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar-links button:hover,
+.navbar-right button:hover {
+    background-color: #ffa41c;
+    color: #232F3E;
+}
+
+/* Auth Form */
+.auth-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f3f4f6;
+}
+/* Assuming the title has an ID or class */
+title {
+  text-align: center;
+  font-size: 2rem; /* Adjust the size as needed */
+  margin: 20px 0;
+}
+/* Add styles to the button */
+selectiOptionButton {
+  background-color: #4CAF50; /* Example color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+selectiOptionButton:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+
+
+.form-container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.form-container h2 {
+    margin-bottom: 1rem;
+    color: #232F3E;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #ffa41c;
+}
+
+/* Dropdown */
+.dropdown-container {
+    padding: 20px;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.dropdown-container label,
+.dropdown-container select {
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+/* Timetable */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: #232F3E;
+    color: white;
+}
+
+td.break {
+    background-color: #ffeb3b;
+}
+
+td.lunch {
+    background-color: #ff9800;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
